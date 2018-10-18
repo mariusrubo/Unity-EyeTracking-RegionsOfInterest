@@ -12,7 +12,7 @@ research). We might ask the following questions:
 * If the scene was to be filmed by a camera, at what coordinates in pixels would the object appear in the video?
 * If the object has a front (e.g. a virtual character's head), is it currently looking at the user?
 
-The attached script 'EyeTracking.cs' provides a class to bundle this information and a single function to process it. 
+The attached script 'EyeTracking.cs' provides a class to bundle this information and a single function to process it, and also gives an example how to use both. 
 
 # Installation
 Attach this script, stream the gaze rays from both eyes provided by your eye-tracker's API in the Update()-Loop, insert your 

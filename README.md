@@ -10,7 +10,7 @@ research). We might specifically ask the following questions:
 * By what angle does the user's gaze miss the object? (if this angle is low, say <2°, we may say the user "looks at the object"). 
 * Does the user look above, under, left or right to the object? (that is, separate the deviation along an x- and y-axis)
 * If the scene was to be filmed by a camera, at what coordinates in pixels would the object appear in the video?
-* If the object has a front (e.g. if the "object" is a virtual character's head), is it currently looking at the user?
+* If the object has a front (e.g. a virtual character's head), is it currently looking at the user?
 
 The attached script provides a class to bundle this information and a single function to process it. 
 

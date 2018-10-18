@@ -4,7 +4,7 @@ A framework to process eye-tracking data in 3D space with regards to regions of 
 # Motivation
 When analyzing gaze data from users in virtual reality (VR), we typically want to describe gaze with regards to certain objects 
 in the scene (here called "regions of interest" (ROI) to comply with the standard term in traditional monitor-based eye-tracking
-research). We might specifically ask the following questions:
+research). We might ask the following questions:
 * Is the object currently visible to the user, or hidden by another object?
 * Is the object located within the current field of view of the display?
 * By what angle does the user's gaze miss the object? (if this angle is low, say <2°, we may say the user "looks at the object"). 

@@ -8,7 +8,8 @@ research). We might ask the following questions:
 * Is the object currently visible to the user, or hidden by another object?
 * Is the object located within the current field of view of the display?
 * By what angle does the user's gaze miss the object? (if this angle is low, say <2°, we may say the user "looks at the object"). 
-* Does the user look above, under, left or right to the object? (that is, separate the deviation along an x- and y-axis)
+* Does the user look above, under, left or right to the object? (that is, separate the deviation along an x- and y-axis. This
+can be especially useful for real-time drift correction)
 * If the scene was to be filmed by a camera, at what coordinates in pixels would the object appear in the video?
 * If the object has a front (e.g. a virtual character's head), is it currently looking at the user?
 

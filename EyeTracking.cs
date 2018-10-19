@@ -85,8 +85,7 @@ public class EyeTracking : MonoBehaviour {
     }
 
     // this processes the roi, and updates all the internal variables
-    // leftGaze and rightGaze must be Vectors in world space, not local space! 
-    //public ROI ProcessROI(ROI roi, Camera cam, Vector3 leftGaze, Vector3 rightGaze)
+    // leftGaze and rightGaze must be in world space, not local space!
     public ROI ProcessROI(ROI roi, Camera cam, Ray leftGaze, Ray rightGaze)
     {
         // check if on Cam

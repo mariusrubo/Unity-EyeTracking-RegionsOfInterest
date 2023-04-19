@@ -16,7 +16,7 @@ can be useful for real-time drift correction)
 The attached script 'EyeTracking.cs' provides a class to bundle this information and a function to process it, and gives an example how to use both. 
 
 # Installation
-Attach this script, stream the gaze rays from both eyes provided by your eye-tracker's API in the Update()-Loop, insert your 
+Attach this script, stream the gaze rays from both eyes provided by your eye-tracker's API in the Update()- or FixedUpdate()-Loop, insert your 
 relevant ROI's transforms in the editor and don't forget to store the data e.g. in a csv-file (not covered here). 
 
 # Cite

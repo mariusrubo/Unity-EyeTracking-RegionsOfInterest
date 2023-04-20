@@ -19,7 +19,6 @@ The attached script 'EyeTracking.cs' provides a class to bundle this information
 Attach this script, stream the gaze rays from both eyes provided by your eye-tracker's API in the Update()- or FixedUpdate()-Loop, insert your 
 relevant ROI's transforms in the editor and don't forget to store the data e.g. in a csv-file (not covered here). 
 
-# Cite
-When using this code in your academic work, please cite the paper in which I first introduced it:
-
-Rubo, M., & Gamer, M. (2020). Stronger reactivity to social gaze in virtual reality compared to a classical laboratory environment. *British Journal of Psychology,* 112(1), 301-314.
+# Reference
+This code was first described here: 
+Rubo, M., & Gamer, M. (2021). Stronger reactivity to social gaze in virtual reality compared to a classical laboratory environment. *British Journal of Psychology,* 112(1), 301-314.

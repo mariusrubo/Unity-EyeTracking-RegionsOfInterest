@@ -21,4 +21,5 @@ relevant ROI's transforms in the editor and don't forget to store the data e.g. 
 
 # Reference
 This code was first described here: 
+
 Rubo, M., & Gamer, M. (2021). Stronger reactivity to social gaze in virtual reality compared to a classical laboratory environment. *British Journal of Psychology,* 112(1), 301-314.
